@@ -12,7 +12,7 @@ module.exports = {
 }
 
 var storeAPI = {
-	version: '2.0.3',
+	version: require('../package.json').version,
 	enabled: false,
 	
 	// addStorage adds another storage to this store. The store

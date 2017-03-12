@@ -18,3 +18,7 @@ build: test lint
 lint:
 	./node_modules/.bin/eslint tests/* src/*      \
 		--ignore-pattern src/addon/lib/json2.js   \
+
+release:
+	npm version patch
+	# npm publish
